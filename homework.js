@@ -1,15 +1,23 @@
 // 1. Set the variable `givenName` to the string "Addison".
+let givenName = "Addison"
 
 // 2. Set candies equal to 20, people to 6, and leftover equal
 // to the remainder of dividing 20 by 6.
+let candies = 20
+let people = 6
+let leftover = 20 % 6
 
 // 3. Create a function called greeting that returns "Hello, <name>!",
 // where <name> is the name given as an argument to the function.
+function greeting(person) {
+    return "Hello, " + person + "!"
+}
 
 // 4. Create a function called isOdd that, given a number, will
 // return true if it is odd and false if it is not. An odd number is a
 // number which, when divided by 2, has a remainder of 1 or -1.
-
+function isOdd(number) {
+    console.log('number' / 2 )
 // 5. Create a function called isEven that, given a number, will
 // return true if it is even and false if it is not. An even number is a
 // number which, when divided by 2, has a remainder of 0.
@@ -44,6 +52,18 @@
 // eo - Saluton, <name>!
 //
 // If any other language code is used, return nothing.
+var = language
+function multigreeting('person') {
+    if (language = "en")
+    return "Hello, " + person + "!";
+    if (language = "es")
+    return "¡Hola, " + person + "!";
+    if (language = "fr")
+    return "Bonjour, " + person + "!";
+    if (language = "eo")
+    return "Saluton, " + person + "!"
+}
+
 
 // 11. The greatest common divisor (https://en.wikipedia.org/wiki/Greatest_common_divisor)
 // is the largest integer that, given two other integers, can be divided into them. For
